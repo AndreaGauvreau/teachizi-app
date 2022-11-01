@@ -30,7 +30,7 @@ header div{
     align-items: center;
 }
 
-header button{
+header a{
 color: black;
 background-color: #ffffff00;
 border: none;
@@ -39,12 +39,12 @@ font-size: 14px;
 padding: 0px 20px;
 
 }
-header button:first-child{
+header a:first-child{
     border-right: 3px solid #00000020;
     height: 20px;
 
 }
-header button:last-child{
+header a:last-child{
     background-color: black;
     padding: 13px 30px ;
     color: white;

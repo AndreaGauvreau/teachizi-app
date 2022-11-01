@@ -2,17 +2,18 @@ import React from "react";
 import './Header.css'
 import '../Input.css'
 import logo from './logo.png'
+import { Link } from "react-router-dom";
 
 
 export default function Header(){
     return(
         <header>
-        <img src={logo}/>
+        <Link to="/"><img src={logo}/></Link>
         <input type="text" placeholder="cherchez une matière..."/>
         <div>
-            <button>Tanóra keresése</button>
-            <button>Legyél tanár</button>
-            <button>Regisztráció</button>
+        <Link to="/cours">Trouver un cours</Link>
+        <Link>Devenir Enseignant</Link>
+        <Link>Inscription</Link>
         </div>
         </header>
     )

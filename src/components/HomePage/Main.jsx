@@ -1,18 +1,19 @@
 import React from "react";
 import './Main.css'
 import hiboux from './hiboux.png'
+import { Link } from "react-router-dom";
 
 export default function Main(){
     return(
         <main>
             <div className="left_main">
-                <h1>Találd meg a Neked való Tanárt</h1>
+                <h1>Trouvez le professeur parfait</h1>
                 <ul>
-                    <li>Gyors foglalás</li>
-                    <li>Egyszerű kapcsolattartás</li>
-                    <li>Ellenőrzött tanárok</li>
+                    <li>Réservation rapide</li>
+                    <li>Professeurs vérifiés</li>
+                    <li>Un équipe derrière vous !</li>
                 </ul>
-                <button>Tanóra keresése</button>
+                <Link to="/cours"><button>Trouver un cours</button></Link>
             </div>
             <div className="right_main">
           <img src={hiboux}/>

@@ -1,0 +1,54 @@
+#teacherBox{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: 400px;
+    transition: 0.4s ease;
+}
+a{
+    text-decoration: none !important;
+}
+
+#teacherBox:hover{
+    background-size: 350px;
+
+}
+
+#teacher_slider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1300px;
+}
+
+#teacher_infos{
+    padding: 20px ;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+#teacher_name_time_price{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#teacher_name_time_price span:first-child{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+#teacher_title{
+    font-size: 12px;
+}
