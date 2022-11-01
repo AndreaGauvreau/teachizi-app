@@ -10,13 +10,23 @@ header{
 }
 
 header img{
-    width: 150px;
+    width: 100px;
 }
 
 header input {
 max-width: 300px;
 width: 100%;
-background-color: #9BBEFF;
+background-color: #ffffff00;
+z-index: 1;
+}
+
+header i{
+ position: absolute;
+ left: 20px ;
+}
+
+#input_div{
+    position: relative;
 }
 
 ::placeholder{

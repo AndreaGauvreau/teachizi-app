@@ -4,3 +4,22 @@
     gap:50px;
     max-width: 1000px;
 }
+
+#calcul_section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+#calcul_section section:first-child{
+width: 50%
+
+}
+#calcul_section section:last-child{
+    width: 40%
+    
+    }
+
+    section{
+        padding: 50px 0px ;
+    }

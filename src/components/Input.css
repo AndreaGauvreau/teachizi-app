@@ -1,9 +1,20 @@
 input[type="text"]{
     border: 1px solid black;
     height: 30px;
+    font-size: 0px;
     border-radius: 50px;
     color: black;
-    padding: 5px 20px;
+    padding: 5px 25px;
+    transition: 0.8s
+}
+
+input[type="text"]:hover{
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 50px;
+    color: black;
+    font-size: 12px;
+    padding: 5px 50px;
     outline: none;
 }
 
