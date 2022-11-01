@@ -1,0 +1,22 @@
+main {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    align-items: center;
+}
+
+main h1{
+    font-size: 50px;
+    max-width: 80%
+}
+
+main button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 1px ;
+    width: 300px;
+}

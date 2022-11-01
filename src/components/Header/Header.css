@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 150px;
+}
+
+header input {
+max-width: 300px;
+width: 100%;
+background-color: #9BBEFF;
+}
+
+::placeholder{
+    color: black
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+
+header button{
+color: black;
+background-color: #ffffff00;
+border: none;
+cursor: pointer;
+font-size: 14px;
+padding: 0px 20px;
+
+}
+header button:first-child{
+    border-right: 3px solid #00000020;
+    height: 20px;
+
+}
+header button:last-child{
+    background-color: black;
+    padding: 13px 30px ;
+    color: white;
+    border-radius: 50px;
+}
