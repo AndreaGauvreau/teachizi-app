@@ -11,9 +11,9 @@ export default function HomePage(){
     return(
         <div id="homepage_container">
         <Main/>
-        <span>Voir plus de cours</span>
+            <span>Voir plus de cours</span>
         <Content_small/>
-        <div id="calcul_section">
+            <div id="calcul_section">
             <section>
                 <h1>Notre mission</h1>
                 <span>
@@ -26,8 +26,8 @@ Notre objectif est de créer une communauté interactive d'enseignants, où chac
             <section>
                 <CalculMoney/>
             </section>
-        </div>
-        <span>Que souhaitez-vous apprendre ?</span>
+            </div>
+             <span>Que souhaitez-vous apprendre ?</span>
         <CategorySlider />
         <SearchBar/>
         </div>
