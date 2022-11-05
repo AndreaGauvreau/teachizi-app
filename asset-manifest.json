@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/teachizi-app/static/css/main.6fbf28c9.css",
+    "main.js": "/teachizi-app/static/js/main.f9fe3de1.js",
+    "static/media/hiboux.png": "/teachizi-app/static/media/hiboux.c8943c523a018da80568.png",
+    "index.html": "/teachizi-app/index.html",
+    "main.6fbf28c9.css.map": "/teachizi-app/static/css/main.6fbf28c9.css.map",
+    "main.f9fe3de1.js.map": "/teachizi-app/static/js/main.f9fe3de1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fbf28c9.css",
+    "static/js/main.f9fe3de1.js"
+  ]
+}
