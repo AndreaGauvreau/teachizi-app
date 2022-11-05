@@ -3,12 +3,15 @@ import { useEffect } from 'react'
 import { useRef } from 'react'
 import { useState, useReducer } from 'react'
 import './CalculMoney.css'
+import { ThemeContext } from "../../App";
+
 
 const reducer=(a,b)=>{
     return b
 }
 
 export default function CalculMoney() {
+    const theme= React.useContext(ThemeContext)
 
     const [state, dispatch]= useReducer(reducer,{hour:1, price:30, total:30})
     const hourRef= useRef()
@@ -29,7 +32,7 @@ export default function CalculMoney() {
 
 
   return (
-        <div id='calculate_price_potential'>
+        <div id='calculate_price_potential' style={{background: theme.color, color: theme.color2 }}>
     <div>Calculez combien vous pouvez gagner en donnant des cours sur teachizi !</div>
     <div id='input_container'>
         <label>Heure/semaine

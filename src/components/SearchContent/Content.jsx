@@ -1,6 +1,8 @@
 import React from "react";
 import { data } from "./contentData";
 import './Content.css'
+import { ThemeContext } from "../../App";
+
 
 export default function Content(){
     return(

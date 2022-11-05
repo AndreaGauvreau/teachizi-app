@@ -6,14 +6,17 @@ import Main from "./Main";
 import './HomePage.css'
 import CategorySlider from "./CategorySlider";
 import CalculMoney from "./CalculMoney";
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
 
-export default function HomePage(){
+export default function HomePage({darkMode, setDarkMode}){
+    const theme= useContext(ThemeContext)
     return(
         <div id="homepage_container">
         <Main/>
-            <span>Voir plus de cours</span>
+            <span style={{color: theme.color}}>Voir plus de cours</span>
         <Content_small/>
-            <div id="calcul_section">
+            <div id="calcul_section" style={{color: theme.color}}>
             <section>
                 <h1>Notre mission</h1>
                 <span>
@@ -27,7 +30,7 @@ Notre objectif est de créer une communauté interactive d'enseignants, où chac
                 <CalculMoney/>
             </section>
             </div>
-             <span>Que souhaitez-vous apprendre ?</span>
+             <span style={{color: theme.color}}>Que souhaitez-vous apprendre ?</span>
         <CategorySlider />
         <SearchBar/>
         </div>

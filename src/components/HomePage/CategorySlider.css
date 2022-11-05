@@ -30,14 +30,7 @@
   .slide-track img {
     width: 120px
   }
-  .slider::before, .slider::after, .slider2::before, .slider2::after {
-    background: linear-gradient(to right,#9BBEFF  0%, rgba(255, 255, 255, 0) 100%); 
-    content: "";
-    height: 200px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-  }
+  
   .slider::after, .slider2::after {
     right: 0;
     top: 0;
